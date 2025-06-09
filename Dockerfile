@@ -16,4 +16,4 @@ COPY test_calculator.py .
 
 # Command to run the application when the container starts
 # For now, we'll just have it say it's running
-CMD ["python3", "-c", "print('Calculator application running!')"]
+CMD ["python3", "-c", "calculator.py"]
